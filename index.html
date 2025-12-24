@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merry Christmas</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <canvas id="snowCanvas"></canvas>
+
+  <!-- Music -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicToggle">🔇</button>
+
+  <!-- Card Wrapper -->
+  <div class="scene">
+    <div class="card-wrapper">
+      <div class="card" id="card">
+
+        <!-- FRONT -->
+        <div class="card-face card-front">
+          <div class="moon">
+            <div class="santa"></div>
+          </div>
+
+          <div class="forest"></div>
+          <h1 class="title">Merry Christmas</h1>
+        </div>
+
+        <!-- INSIDE -->
+        <div class="card-face card-inside">
+          <div class="inside-left">
+            <img src="photo.jpg" alt="Your Photo">
+          </div>
+
+          <div class="inside-right">
+            <p class="message">
+  Merry Christmas 🎄<br>
+  Cảm ơn em vì đã đến bên anh, yêu anh và quan tâm anh.<br>
+  Mong rằng những mùa Noel tiếp theo, mình vẫn có nhau và yêu thương nhau hơn nữa.<br>
+  Anh yêu em nhiều lắm.<br>
+Đăng Khoa.<br>
+
+  💖
+</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
